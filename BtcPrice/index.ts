@@ -5,6 +5,7 @@ const httpTrigger: AzureFunction = async function (context: Context, req: HttpRe
     context.log('HTTP trigger function processed a request.');
 
     const btcPriceResp = await get('https://api.coindesk.com/v1/bpi/currentprice.json')
+    context.log(btcPriceResp.body)
 
     context.res = {
         // status: 200, /* Defaults to 200 */
