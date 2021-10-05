@@ -16,5 +16,5 @@
       "name": "res"
     }
   ],
-  "scriptFile": "../dist/PingRequest/index.js"
+  "scriptFile": "../dist/BtcPrice/index.js"
 }
