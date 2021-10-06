@@ -5,3 +5,6 @@
 local.settings.json
 test
 getting_started.md
+node_modules
+!node_modules/**/*.js
+!node_modules/**/*.json
